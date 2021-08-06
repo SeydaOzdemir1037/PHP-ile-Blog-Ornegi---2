@@ -1,0 +1,138 @@
+.card ul a {
+
+	text-decoration: none;
+	color:black;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 18px 14px ;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+/* background-image: url(img/A.png); */
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+
+  .buton {
+    color: blue;
+    text-align: center;
+  }
+
+
+  .arkaplan-rengi {
+    background: #5a6079 !important;
+  }
+
+  h1 {
+    color: purple;
+    font-size: 20px;
+  }
+
+  h2 {
+    color: yellow;
+    font-size: 20px;
+  }
+
+ /*  ////////////////////////////77777777777777777777777777777777777777777777777//////////////////////////////////////// */
+  /*=-footer-=*/
+  footer {
+    color: black;
+    background-attachment: fixed;
+    background-color:#222;
+    background-size: cover;
+    background-position: bottom;
+  }
+  footer p {
+    color: #ccc;
+  }
+  footer a {
+    color: #ccc;
+  }
+  .social-pet li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .social-pet li a {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+    background-color: #3a5a95;
+    color: #fff;
+  }
+  .social-pet li:nth-child(2) a {
+    background-color: #57aced;
+  }
+  .social-pet li:nth-child(3) a {
+    background-color: #dd4f43;
+  }
+  .social-pet li:nth-child(4) a {
+    background-color: #6b27b2;
+  }
+  .social-pet li a:hover {
+    background-color: #0141a2;
+  }
+  .social-pet li a:hover i {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+  .recent-post li {
+    display: block;
+    color: #ccc;
+    margin-bottom: 25px;
+  }
+  .recent-post li label {
+    float: left;
+    border: 2px solid #ccc;
+    padding: 1px 7px;
+    text-align: center;
+  }
+  .recent-post li label span {
+    color: #fff;
+  }
+  footer .input-group-addon {
+    background-color: #0141a2;
+    padding: 10px;
+  }
+  .f-address li {
+    display: inline-block;
+  }
+  .f-address li i {
+    color: #2995de;
+    font-size: 18px;
+  }
+  .f-address li a {
+    color: #ccc;
+  }
+  /*=-Copyright-=*/
+  .copyright {
+    background-color: #111;
+    padding: 12px 0;
+    font-size:14px;
+  }
+  .arkaplanim{
+    border-style: groove;
+    border-width: 2px;
+  }
+  form{
+    border-width: 2px;
+    border-style: groove;
+    border-color: black;
+  }
+  }
